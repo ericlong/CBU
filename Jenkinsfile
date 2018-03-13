@@ -39,7 +39,7 @@ pipeline {
       steps {
         echo 'all the things'
         echo 'Notify QA Team'
-        input(ok: 'Deploy', message: 'Deploy to QA', submitter: 'spike')
+        input(ok: 'Deploy', message: 'Deploy to QA', submitter: 'elong')
       }
     }
     stage('QA DEPLOY') {
